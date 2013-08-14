@@ -154,6 +154,9 @@ void HelloWorld::initPhysics()
     // right
     groundBox.Set(b2Vec2(s.width/PTM_RATIO,s.height/PTM_RATIO), b2Vec2(s.width/PTM_RATIO,0));
     groundBody->CreateFixture(&groundBox,0);
+    
+    //TESTAAAA
+    //TESTSVN
 }
 
 void HelloWorld::draw()
